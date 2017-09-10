@@ -39,20 +39,25 @@ button {
 }
 .plans .plan {
     border: 1px solid #555;
-    padding: 15px 20px;
+    padding-top: 15px;
+    margin-bottom: 18px;
     text-align: left;
     position: relative;
     height: 1100px;
 }
 .plans .plan .top {
     margin-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.plans .plan .hr {
-    width: 100%;
-    height: 2.8px;
-    background: #555;
-    position: absolute;
-    left: 0;
+h2:first-of-type {
+    color: #7984aa !important;
+}
+h2:nth-of-type(2) {
+    color: #00c092 !important;
+}
+h2:last-of-type {
+    color: #00bfff !important;
 }
 .plans .plan .top > span:first-of-type {
     font-weight: bold;
@@ -68,10 +73,14 @@ button {
 }
 .plans .plan .body p {
     text-align: left;
+    
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.plans .plan .body button, .plan button {
+.plans .plan .body button, .plan .bottom button {
     background: #ff8001;
     margin-left: 5%;
+    margin-right: 5%;
     color: #fff;
     width: 90%;
     border: none;
@@ -82,21 +91,23 @@ button {
 .plan button {
     margin-top: 50px;
 }
-.plans .plan .body button:hover {
+.plans .plan .body button:hover, .plan button:hover {
     background: #e97502;
 }
 .plans .plan .bottom {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .plans .plan .bottom .item {
-    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 55px;
+    line-height: 55px;
     text-align: left;
     display: block;
     cursor: pointer;
 }
-.plans .plan .bottom .item .hr {
-    margin-top: -22px;
-    height: 1px;
+.plans .plan .bottom .hr {
+    border-top: 1px solid #999;
 }
 .plans .plan .bottom .item p {
     display: inline-block;
@@ -107,10 +118,12 @@ button {
     color: #ff8001;
     float: left;
     font-size: 20px;
+    line-height: 55px;
 }
 .plans .plan .bottom .item i:last-of-type {
     float: right;
     color: #999;
+    line-height: 55px;
 }
 
 
