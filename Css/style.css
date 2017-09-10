@@ -1,0 +1,131 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+    font-family: 'Coda', cursive;
+	letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 31px;
+}
+h3, h3 span {
+    font-size: 22px;
+    font-weight: bold;
+}
+p, li, a, q, span, button {
+	font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+}
+input, textarea {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+button {
+    font-size: 16px;
+    padding: 9px 16px;
+}
+
+
+.plans h1 {
+    margin-bottom: 20px;
+}
+.plans p {
+    margin-bottom: 40px;
+}
+.plans .plan {
+    border: 1px solid #555;
+    padding: 15px 20px;
+    text-align: left;
+    position: relative;
+    height: 1100px;
+}
+.plans .plan .top {
+    margin-bottom: 12px;
+}
+.plans .plan .hr {
+    width: 100%;
+    height: 2.8px;
+    background: #555;
+    position: absolute;
+    left: 0;
+}
+.plans .plan .top > span:first-of-type {
+    font-weight: bold;
+}
+.plans .plan .top > span {
+    display: block;
+    text-align: left;
+}
+.plans .plan .body {
+    margin-top: 18px;
+    text-align: center;
+    padding-top: 18px;
+}
+.plans .plan .body p {
+    text-align: left;
+}
+.plans .plan .body button, .plan button {
+    background: #ff8001;
+    margin-left: 5%;
+    color: #fff;
+    width: 90%;
+    border: none;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    transition: all 0.4s ease-in-out;
+}
+.plan button {
+    margin-top: 50px;
+}
+.plans .plan .body button:hover {
+    background: #e97502;
+}
+.plans .plan .bottom {
+    margin-top: 20px;
+}
+.plans .plan .bottom .item {
+    padding-top: 15px;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+}
+.plans .plan .bottom .item .hr {
+    margin-top: -22px;
+    height: 1px;
+}
+.plans .plan .bottom .item p {
+    display: inline-block;
+    line-height: 1px;
+    margin-left: 20px
+}
+.plans .plan .bottom .item i {
+    color: #ff8001;
+    float: left;
+    font-size: 20px;
+}
+.plans .plan .bottom .item i:last-of-type {
+    float: right;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
