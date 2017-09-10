@@ -13,10 +13,6 @@ h1, h2, h3, h4 {
     font-weight: bold;
     font-size: 31px;
 }
-h3, h3 span {
-    font-size: 22px;
-    font-weight: bold;
-}
 p, li, a, q, span, button {
 	font-family: 'Comfortaa', cursive;
     font-size: 17px;
@@ -44,21 +40,60 @@ button {
     text-align: left;
     position: relative;
     height: 1100px;
+    
+    box-shadow: 0px 0px 7px 1px #eee;
+    border: 1px solid #eee;
 }
 .plans .plan .top {
     margin-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
+    border-bottom: 3px solid #7984aa;
+    height: 115px;
 }
-h2:first-of-type {
-    color: #7984aa !important;
+.plans .plan > .second {
+    border-bottom: 3px solid #00c092;
 }
-h2:nth-of-type(2) {
-    color: #00c092 !important;
+.plans .plan > .third {
+    border-bottom: 3px solid #00bfff;
 }
-h2:last-of-type {
-    color: #00bfff !important;
+.plans .plan .top h2 {
+    font-size: 26px;
 }
+h2.first {
+    color: #7984aa;
+}
+h2.second {
+    color: #00c092;
+}
+h2.third {
+    color: #00bfff;
+}
+
+
+.plans .plan .top .sub-h2 > span {
+    display: inline-block;
+}
+.plans .plan .top .sub-h2 > span:first-of-type {
+    vertical-align: top;
+    line-height: 40px;
+}
+.plans .plan .top .sub-h2 .price {
+    font-size: 4.1rem;
+    font-weight: bold;
+}
+.plans .plan .top .sub-h2 .sum {
+    font-size: 14px;
+}
+.plans .plan .top .sub-h2 .sum span:first-of-type {
+    font-weight: bold;
+    line-height: 13px;
+}
+.plans .plan .top .sub-h2 .sum span {
+    display: block;
+}
+
+
 .plans .plan .top > span:first-of-type {
     font-weight: bold;
 }
@@ -73,7 +108,7 @@ h2:last-of-type {
 }
 .plans .plan .body p {
     text-align: left;
-    
+    font-size: 16px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -90,9 +125,11 @@ h2:last-of-type {
 }
 .plan button {
     margin-top: 50px;
+    border-radius: 4px;
 }
 .plans .plan .body button:hover, .plan button:hover {
     background: #e97502;
+    border-radius: 4px;
 }
 .plans .plan .bottom {
     margin-top: 25px;
@@ -124,6 +161,10 @@ h2:last-of-type {
     float: right;
     color: #999;
     line-height: 55px;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 
 
